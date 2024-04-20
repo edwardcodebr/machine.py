@@ -1,0 +1,7 @@
+from sympy import symbols, diff
+
+
+x = symbols('x')
+exp = x**3 - 3*x**2 + 2
+derivada = diff(exp, x)
+print(derivada)
